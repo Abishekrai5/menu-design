@@ -1,0 +1,54 @@
+.navbar-list{
+    list-style-type: none; /*list ko bullet hataune*/
+}
+.navbar-list li a{
+    text-decoration: none;/*underline hataune a tag bata*/
+    color: white;/*Text lai color dine*/
+    font-family: Arial;
+    font-size: 1rem;
+}
+.navbar-list li{
+    float: left;/*list lai left tira float garaune*/
+    padding: 15px 15px;/*all side 15px padding dine*/
+}
+.navbar-list li:hover .dropdown-submenu{
+    background: #373738;
+}
+.dropdown-submenu{
+    position: absolute;
+    background: #373738;
+    display: none;
+    top:48px;
+    margin-left: -15px;
+}
+.dropdown-submenu li{
+    list-style-type: none;
+    float: none;
+}
+.navbar-list li:hover .dropdown-submenu{
+    display: block;
+}
+.navbar-list li ul li:hover{
+    background: #595a5b;
+}
+.dropdown-icon{
+    width: 14px;
+    height: 12px;
+    padding: 3px;
+}
+.dropdown-submenu1{
+    position:absolute;
+    background: #373738;
+    display: none;
+    left:68px;
+    margin-left: 67px;
+    top:48px;
+}
+.dropdown-submenu1 li{
+    list-style-type: none;
+    float: right;  
+    width: 125px;
+} 
+.navbar-list li ul li:hover .dropdown-submenu1{
+    background: #373738;
+    display: block;
